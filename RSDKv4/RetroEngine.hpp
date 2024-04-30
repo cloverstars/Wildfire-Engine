@@ -19,9 +19,9 @@
 #endif
 
 // Forces all DLC flags to be disabled, this should be enabled in any public releases
-#ifndef RSDK_AUTOBUILD
-#define RSDK_AUTOBUILD (0)
-#endif
+ifndef RSDK_AUTOBUILD
+define RSDK_AUTOBUILD (1)
+endif
 
 // ================
 // STANDARD LIBS
