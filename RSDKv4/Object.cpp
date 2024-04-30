@@ -361,8 +361,8 @@ void ProcessObjectControl(Entity *entity)
             entity->left  = false;
             entity->right = false;
         }
-        entity->jumpHold  = keyDown.C || keyDown.B || keyDown.A;
-        entity->jumpPress = keyPress.C || keyPress.B || keyPress.A;
+        entity->jumpHold  = keyDown.A;
+        entity->jumpPress = keyPress.A;
     }
 }
 
